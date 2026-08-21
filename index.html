@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MindCare — Mental health support for Bulacan</title>
+  <meta name="description" content="MindCare is a privacy-first mental health app for Bulacan communities. Offline articles, verified local providers, daily check-ins, and an AI companion — all encrypted on your device.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/webp" href="logo.webp">
+</head>
+<body>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a class="nav-brand" href="#hero">
+      <img class="nav-logo" src="logo.webp" alt="MindCare logo">
+      <span>MindCare</span>
+    </a>
+    <div class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#faq">FAQ</a>
+      <a class="nav-cta" href="#download">Get the app</a>
+    </div>
+  </nav>
+
+  <div class="dots" role="navigation" aria-label="Page sections">
+    <button class="dot active" data-target="hero" aria-label="Go to Home"></button>
+    <button class="dot" data-target="features" aria-label="Go to Features"></button>
+    <button class="dot" data-target="awareness" aria-label="Go to Awareness Hub"></button>
+    <button class="dot" data-target="directory" aria-label="Go to Help near you"></button>
+    <button class="dot" data-target="checkin" aria-label="Go to Daily check-in"></button>
+    <button class="dot" data-target="privacy" aria-label="Go to Privacy"></button>
+    <button class="dot" data-target="faq" aria-label="Go to FAQ"></button>
+    <button class="dot" data-target="download" aria-label="Go to Get the app"></button>
+  </div>
+
+  <main class="snap-container">
+    <section id="hero" class="section hero" data-nav="Home">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="blob blob-3"></span>
+      </div>
+      <div class="hero-inner">
+        <img class="hero-logo reveal" style="--d:0" src="logo.webp" alt="MindCare heart logo">
+        <h1 class="reveal" style="--d:1">MindCare</h1>
+        <p class="hero-tagline reveal" style="--d:2">Mental health support for Bulacan — private by design.</p>
+        <p class="hero-sub reveal" style="--d:3">Offline articles, verified local providers, daily check-ins, and a friendly AI companion. Everything stays encrypted on your phone.</p>
+        <div class="hero-cta reveal" style="--d:4">
+          <a class="btn btn-primary" href="#download">Get the app</a>
+          <a class="btn btn-ghost" href="#features">Learn more</a>
+        </div>
+        <div class="hero-meta reveal" style="--d:5">
+          <span>Free</span><span class="dot-sep"></span><span>English &amp; Filipino</span><span class="dot-sep"></span><span>Android</span>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#features" aria-label="Scroll to features">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </a>
+    </section>
+
+    <section id="features" class="section features" data-nav="Features">
+      <div class="section-head reveal" style="--d:0">
+        <p class="eyebrow">Features</p>
+        <h2>Everything you need, nothing leaves your phone</h2>
+        <p class="section-sub">Six tools built around one promise: private, offline-first mental health support.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card reveal" style="--d:1">
+          <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V4H6.5A2.5 2.5 0 0 0 4 6.5v13z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg></div>
+          <h3>Awareness Hub</h3>
+          <p>Easy-to-read mental health articles that work fully offline. Save what matters, search instantly, listen hands-free.</p>
+        </article>
+        <article class="feature-card reveal" style="--d:2">
+          <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7.5-4.9-10-9.3C.4 8.9 1.7 5 5.2 4.3 7.4 3.9 9.3 5 12 7.6 14.7 5 16.6 3.9 18.8 4.3c3.5.7 4.8 4.6 3.2 7.4C19.5 16.1 12 21 12 21z"/></svg></div>
+          <h3>Help near you</h3>
+          <p>Verified providers across Bulacan with city filters, Near Me distance sorting, and crisis hotlines always one tap away.</p>
+        </article>
+        <article class="feature-card reveal" style="--d:3">
+          <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+          <h3>Daily check-in</h3>
+          <p>A gentle once-a-day mood check with streaks that encourage showing up for yourself, not chasing numbers.</p>
+        </article>
+        <article class="feature-card reveal" style="--d:4">
+          <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-8.4 8.5c-1.4 0-2.8-.3-4-1L3 21l2-5.4a8.38 8.38 0 0 1-.4-8.1 8.38 8.38 0 0 1 7.5-4.9h.5a8.42 8.42 0 0 1 8.4 8.4v.5z"/></svg></div>
+          <h3>AI companion</h3>
+          <p>A judgment-free chat companion trained to listen, with crisis keywords that route you to real human help instantly.</p>
+        </article>
+        <article class="feature-card reveal" style="--d:5">
+          <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M18 10h-1.3A7 7 0 1 0 4 15.5L3 21l5.5-1A7 7 0 0 0 18 14v-4z"/><path d="M18 10a4 4 0 0 1 0 8"/></svg></div>
+          <h3>Cloud backup</h3>
+          <p>Optional encrypted backup through your own Google account. Your data, your key — not even we can read it.</p>
+        </article>
+        <article class="feature-card reveal" style="--d:6">
+          <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg></div>
+          <h3>Gentle reminders</h3>
+          <p>Daily check-in nudges and weekly summaries you fully control. Silence them anytime.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="awareness" class="section split" data-nav="Awareness Hub">
+      <div class="split-copy">
+        <p class="eyebrow reveal" style="--d:0">Awareness Hub</p>
+        <h2 class="reveal" style="--d:1">Learn about your mind, even offline</h2>
+        <p class="reveal" style="--d:2">Articles on stress, anxiety, depression, and everyday mental wellness — written in plain language and bundled with the app.</p>
+        <ul class="checklist reveal" style="--d:3">
+          <li>Works with zero signal — perfect for provincial commutes</li>
+          <li>Bookmark and revisit what resonates</li>
+          <li>Read-aloud mode for busy days</li>
+        </ul>
+      </div>
+      <div class="split-visual reveal" style="--d:2">
+        <div class="phone" id="phone-awareness">
+          <div class="phone-notch"></div>
+          <img class="screen-shot" src="img/screen-awareness.webp" alt="Awareness Hub screen with mental health articles">
+        </div>
+      </div>
+    </section>
+
+    <section id="directory" class="section split split-flip" data-nav="Help near you">
+      <div class="split-copy">
+        <p class="eyebrow reveal" style="--d:0">Resource Directory</p>
+        <h2 class="reveal" style="--d:1">Real help, near you</h2>
+        <p class="reveal" style="--d:2">Hospitals, clinics, and counselors across Bulacan — verified, searchable, and sorted by distance from where you stand.</p>
+        <ul class="checklist reveal" style="--d:3">
+          <li>Filter by city: Malolos, Meycauayan, San Jose del Monte, and more</li>
+          <li>Near Me sorting by distance</li>
+          <li>Crisis hotlines pinned at the top, day and night</li>
+        </ul>
+      </div>
+      <div class="split-visual reveal" style="--d:2">
+        <div class="phone" id="phone-directory">
+          <div class="phone-notch"></div>
+          <img class="screen-shot" src="img/screen-resources.webp" alt="Local Resources screen with Bulacan mental health providers">
+        </div>
+      </div>
+    </section>
+
+    <section id="checkin" class="section split" data-nav="Daily check-in">
+      <div class="split-copy">
+        <p class="eyebrow reveal" style="--d:0">Check-in &amp; AI companion</p>
+        <h2 class="reveal" style="--d:1">Small daily moments, steady support</h2>
+        <p class="reveal" style="--d:2">One gentle question a day builds a picture of how you're really doing. When you want to talk it out, the AI companion is there — and it knows when to point you to real help.</p>
+        <ul class="checklist reveal" style="--d:3">
+          <li>Once-a-day mood check, no editing, no pressure</li>
+          <li>Streaks that reward simply showing up</li>
+          <li>Crisis keywords connect you to hotlines instantly</li>
+        </ul>
+      </div>
+      <div class="split-visual split-visual-pair reveal" style="--d:2">
+        <div class="phone phone-small" id="phone-checkin">
+          <div class="phone-notch"></div>
+          <img class="screen-shot" src="img/screen-dashboard.webp" alt="Dashboard screen with daily mood check-in">
+        </div>
+        <div class="phone phone-small phone-back" id="phone-chat">
+          <div class="phone-notch"></div>
+          <img class="screen-shot" src="img/screen-chat.webp" alt="MindCare Assistant chat conversation">
+        </div>
+      </div>
+    </section>
+
+    <section id="privacy" class="section privacy" data-nav="Privacy">
+      <div class="privacy-inner">
+        <div class="privacy-badge reveal" style="--d:0">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+        </div>
+        <h2 class="reveal" style="--d:1">Your mind is nobody's business. Not even ours.</h2>
+        <p class="privacy-lede reveal" style="--d:2">Every note, mood, and conversation lives in an encrypted database on your phone. There is no server holding your secrets, no analytics profile, no advertiser waiting.</p>
+        <div class="privacy-grid">
+          <div class="privacy-item reveal" style="--d:3">
+            <h3>SQLCipher encryption</h3>
+            <p>The entire local database is encrypted at rest with a key derived in the Android Keystore.</p>
+          </div>
+          <div class="privacy-item reveal" style="--d:4">
+            <h3>PIN lock + Argon2id</h3>
+            <p>Your lock screen credential is hashed with Argon2id. Brute-force attempts are throttled and blocked.</p>
+          </div>
+          <div class="privacy-item reveal" style="--d:5">
+            <h3>Screenshot protection</h3>
+            <p>Screenshots and screen recording are blocked on every screen of the app.</p>
+          </div>
+          <div class="privacy-item reveal" style="--d:6">
+            <h3>Backup you control</h3>
+            <p>Optional cloud backup is end-to-end encrypted under keys only your PIN and recovery answers can unlock.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section faq" data-nav="FAQ">
+      <div class="faq-inner">
+        <div class="section-head reveal" style="--d:0">
+          <p class="eyebrow">FAQ</p>
+          <h2>Questions people ask us</h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item reveal" style="--d:1">
+            <button class="faq-question" aria-expanded="false">
+              <span>Is my data really private?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer"><p>Yes. Everything is stored in an encrypted database on your device. Nothing is uploaded unless you turn on cloud backup yourself — and that backup is encrypted with keys only you hold.</p></div>
+          </div>
+          <div class="faq-item reveal" style="--d:2">
+            <button class="faq-question" aria-expanded="false">
+              <span>Is MindCare free?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer"><p>Yes, completely. It was built as a capstone project at Bulacan State University to make mental health support accessible in Bulacan communities.</p></div>
+          </div>
+          <div class="faq-item reveal" style="--d:3">
+            <button class="faq-question" aria-expanded="false">
+              <span>What language is the app in?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer"><p>English and Filipino. You can switch anytime in Settings, and the whole interface including articles follows.</p></div>
+          </div>
+          <div class="faq-item reveal" style="--d:4">
+            <button class="faq-question" aria-expanded="false">
+              <span>Is it on the Play Store?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer"><p>Coming soon. The app is finished and being prepared for release — check back here or on our GitHub for the launch.</p></div>
+          </div>
+          <div class="faq-item reveal" style="--d:5">
+            <button class="faq-question" aria-expanded="false">
+              <span>Who made MindCare?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer"><p>A team of Computer Science students from Bulacan State University, as their capstone project, with guidance from faculty advisers.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="section download" data-nav="Get the app">
+      <div class="download-inner">
+        <img class="download-logo reveal" style="--d:0" src="logo.webp" alt="">
+        <h2 class="reveal" style="--d:1">Coming soon to Android</h2>
+        <p class="reveal" style="--d:2">MindCare is finished and heading to the Google Play Store. This page will have the download link the day it goes live.</p>
+        <div class="download-meta reveal" style="--d:3">
+          <div class="meta-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>Android 8.0+</div>
+          <div class="meta-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3l9 4.5-9 4.5L3 7.5 12 3zM3 12l9 4.5 9-4.5M3 16.5L12 21l9-4.5"/></svg>~40 MB, works offline</div>
+          <div class="meta-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7.5-4.9-10-9.3C.4 8.9 1.7 5 5.2 4.3 7.4 3.9 9.3 5 12 7.6 14.7 5 16.6 3.9 18.8 4.3c3.5.7 4.8 4.6 3.2 7.4C19.5 16.1 12 21 12 21z"/></svg>Free, no ads, no tracking</div>
+        </div>
+        <a class="btn btn-primary btn-big reveal" style="--d:4" href="https://github.com/ivanramos15" >Follow the project on GitHub</a>
+      </div>
+      <footer class="site-footer">
+        <p>Built with care in Bulacan — a Bulacan State University capstone project.</p>
+        <p class="footer-links"><a href="https://github.com/ivanramos15">GitHub</a><span class="dot-sep"></span><a href="#hero">Back to top</a></p>
+        <p class="footer-note">If you or someone you know needs help now, call the NCMH crisis hotline: 1553 (Philippines, landline) / 0917-899-8727 (mobile).</p>
+      </footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
