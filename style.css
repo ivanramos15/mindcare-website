@@ -314,6 +314,7 @@ h3 { font-size: 1.05rem; font-weight: 700; }
   color: var(--text);
   font-weight: 600;
   font-size: 0.98rem;
+  line-height: 1.45;
 }
 
 .checklist li::before {
